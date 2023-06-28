@@ -24,6 +24,7 @@ void loop()
   for (int i = 0; i < LEDS; i++) 
   {
     sr.set(i, HIGH);
+    sr.set(i-1, LOW);
     delay(250); 
   }
 }
