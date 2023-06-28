@@ -18,6 +18,8 @@ void setup()
 
 void loop() 
 {
-  servoDer.write(CALIBRACION + 90);
-  servoIzq.write(CALIBRACION + 90);
+  delay(1000);
+  
+  servoDer.write((CALIBRACION +  100));
+  servoIzq.write((CALIBRACION + 100));
 }
